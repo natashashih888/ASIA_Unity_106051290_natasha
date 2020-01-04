@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 880375364307300425}
   - component: {fileID: 880375364313890649}
+  - component: {fileID: -6868921894060891041}
   m_Layer: 0
   m_Name: iron_barrier
   m_TagString: Untagged
@@ -45,6 +46,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.30121332, y: 0.30353892, z: 2.7037597}
   m_Center: {x: 0.0010821212, y: 0.15414435, z: 0.0019951882}
+--- !u!64 &-6868921894060891041
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880375364307462707}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &880375364307483291
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4403771662000261339}
   - component: {fileID: 4403771661993703381}
+  - component: {fileID: -6153178692296539021}
   m_Layer: 0
   m_Name: painted_wall_barrier
   m_TagString: Untagged
@@ -45,6 +46,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.71399087, y: 3.691543, z: 1.7056261}
   m_Center: {x: -0.00060100533, y: 1.8455007, z: -0.0000021124142}
+--- !u!64 &-6153178692296539021
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4403771662000004065}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &4403771662000127033
 GameObject:
   m_ObjectHideFlags: 0

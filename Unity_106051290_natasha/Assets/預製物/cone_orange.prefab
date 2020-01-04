@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5946561089607851576}
   - component: {fileID: 5946561089604461392}
   - component: {fileID: 5946561089605901866}
+  - component: {fileID: 5555198436351131526}
   m_Layer: 0
   m_Name: model
   m_TagString: Untagged
@@ -78,6 +79,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5555198436351131526
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5946561089607568544}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 24ed04a576405d2459f125262de2cdba, type: 3}
 --- !u!1 &5946561089607612686
 GameObject:
   m_ObjectHideFlags: 0
@@ -88,6 +103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5946561089607941784}
   - component: {fileID: 5946561089610096886}
+  - component: {fileID: 1818516928168393937}
   m_Layer: 0
   m_Name: cone_orange
   m_TagString: Untagged
@@ -123,3 +139,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.64559644, y: 0.8301798, z: 0.64642745}
   m_Center: {x: 0.0008138418, y: 0.4166383, z: -0.00041738153}
+--- !u!64 &1818516928168393937
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5946561089607612686}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}

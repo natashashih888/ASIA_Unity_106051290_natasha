@@ -102,8 +102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5946561089607941784}
-  - component: {fileID: 5946561089610096886}
-  - component: {fileID: 1818516928168393937}
+  - component: {fileID: 6063825412401272880}
   m_Layer: 0
   m_Name: cone_orange
   m_TagString: Untagged
@@ -126,20 +125,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &5946561089610096886
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5946561089607612686}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.64559644, y: 0.8301798, z: 0.64642745}
-  m_Center: {x: 0.0008138418, y: 0.4166383, z: -0.00041738153}
---- !u!64 &1818516928168393937
+--- !u!64 &6063825412401272880
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

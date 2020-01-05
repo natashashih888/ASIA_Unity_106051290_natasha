@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8671017585838796970}
   - component: {fileID: 8671017585844879790}
   - component: {fileID: 8671017585844998458}
-  - component: {fileID: 3792258070214008340}
   m_Layer: 0
   m_Name: warning_sign
   m_TagString: Untagged
@@ -60,20 +59,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.1791138, y: 1.7833648, z: 2.2228017}
   m_Center: {x: 0.074748054, y: 1.1594934, z: -0.0022383295}
---- !u!64 &3792258070214008340
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8671017585838501150}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 0}
 --- !u!1 &8671017585838578290
 GameObject:
   m_ObjectHideFlags: 0

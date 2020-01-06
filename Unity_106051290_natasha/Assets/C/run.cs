@@ -20,4 +20,17 @@ public class run : MonoBehaviour
 
 
 
+    private void Jump()
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                print("跳");
+                ani.SetBool("跳", true);
+            }
+            else
+            {
+                ani.SetBool("跳躍", false);
+            }
+        }
+
 }

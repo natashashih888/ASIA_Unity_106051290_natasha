@@ -5,6 +5,7 @@ public class run : MonoBehaviour
     public Animator ani;
     private void Update()
     {
+        Jump();
         Run();
     }
     private void Run()
@@ -24,8 +25,8 @@ public class run : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                print("跳");
-                ani.SetBool("跳", true);
+                print("跳躍");
+                ani.SetBool("跳躍", true);
             }
             else
             {

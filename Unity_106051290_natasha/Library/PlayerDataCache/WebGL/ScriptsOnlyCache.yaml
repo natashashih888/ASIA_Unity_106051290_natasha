@@ -9,6 +9,12 @@ ScriptsOnlyBuild:
     - run
     - vComment
     - vThirdPersonCamera
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     UnityEngine.UI.dll:
@@ -66,33 +72,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9744}
     - Class: 114
-      Script: {instanceID: 9922}
+      Script: {instanceID: 9920}
     - Class: 114
-      Script: {instanceID: 9962}
+      Script: {instanceID: 9960}
     - Class: 114
-      Script: {instanceID: 9980}
+      Script: {instanceID: 9978}
     - Class: 114
-      Script: {instanceID: 10056}
+      Script: {instanceID: 10054}
     - Class: 114
-      Script: {instanceID: 10312}
+      Script: {instanceID: 10310}
     - Class: 114
-      Script: {instanceID: 10378}
+      Script: {instanceID: 10376}
     - Class: 114
-      Script: {instanceID: 10502}
+      Script: {instanceID: 10500}
     - Class: 114
-      Script: {instanceID: 10506}
+      Script: {instanceID: 10504}
     - Class: 114
-      Script: {instanceID: 10638}
+      Script: {instanceID: 10636}
     - Class: 114
-      Script: {instanceID: 11058}
+      Script: {instanceID: 11056}
     - Class: 114
-      Script: {instanceID: 11258}
+      Script: {instanceID: 11256}
     - Class: 114
-      Script: {instanceID: 11460}
+      Script: {instanceID: 11458}
     - Class: 114
-      Script: {instanceID: 11632}
+      Script: {instanceID: 11630}
     - Class: 114
-      Script: {instanceID: 11682}
+      Script: {instanceID: 11680}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -164,12 +170,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Dropdown
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: jump
   - hash:
       serializedVersion: 2
       Hash: 71f7f12b8d0f4fd73590db8bcb6d453c
@@ -725,4 +725,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/shih/Documents/GitHub/Name-ASIA_Unity_106051290_natasha/web
+  playerPath: C:/Users/A309/Documents/GitHub/ASIA_Unity_106051290_natasha/web
